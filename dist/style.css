@@ -1,0 +1,83 @@
+html {
+    background-image: url(cookies.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    background-color: silver;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 0 10px 0;
+    margin: 20% auto 0 auto;
+    width: 50%;
+}
+
+h3 {
+    background-color: silver;
+    font-size: 16px;
+    padding: 10px 0 20px 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+nav {
+    background-color: silver;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav li {
+    border: 1px solid black;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    width: 100%;
+}
+
+nav li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-flow: row;
+    margin: 20% auto;
+    width: 50%;
+}
+
+.grid-child {
+
+    background-color: silver;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 5px;
+    text-align: left;
+}
+
+.info-container {
+    background-color: silver;
+    margin: 20% auto;
+    width: 50%;
+}
+
+.info-container p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+}
